@@ -18,4 +18,5 @@ COPY . .
 EXPOSE 8080
 
 # Define the Docker image's behavior at runtime
+#some comments
 CMD ["node", "server.js"]
